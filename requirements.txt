@@ -1,0 +1,20 @@
+# requirements.txt for Budget_Jarvis
+
+# Core dependencies
+transformers==4.12.5
+torch==1.10.1
+
+# Testing
+unittest
+
+# Additional dependencies
+pydub           # For audio processing (voice interaction)
+SpeechRecognition  # For voice input
+gTTS           # For text-to-speech
+psutil         # For system monitoring
+requests       # For weather/news updates
+beautifulsoup4 # For web scraping (news)
+schedule       # For scheduling tasks
+langdetect     # For language detection
+python-dotenv  # For environment variables
+
